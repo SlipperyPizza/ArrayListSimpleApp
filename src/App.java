@@ -16,6 +16,7 @@ public class App {
         Scanner sc = new Scanner(System.in);
         int userChoice = 0;
         while (userChoice != 4) {
+            Ssytem.out.println("This shows changes to the new commit in the repository.");
             System.out.println("1. Input Data");
             System.out.println("2. Show Data");
             System.out.println("3. Delete Data");
